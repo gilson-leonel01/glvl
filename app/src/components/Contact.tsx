@@ -66,7 +66,7 @@ export default function Contact () {
     }
 
     const whatsappMessage = `Olá! Eu sou ${formData.name}.\n\nEmail: ${formData.email}\nTelefone: ${formData.phone}\n\nDetalhes do projeto:\n${formData.message}`;
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/+244944704591?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.open(whatsappUrl, "_blank");
     
@@ -103,7 +103,7 @@ export default function Contact () {
                   </div>
                   <div>
                     <p className="text-foreground font-medium">Email</p>
-                    <a href="mailto:your.email@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    <a href="mailto:gilson.leonel05@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                       gilson.leonel05@gmail.com
                     </a>
                   </div>
@@ -115,7 +115,7 @@ export default function Contact () {
                   </div>
                   <div>
                     <p className="text-foreground font-medium">Telefone</p>
-                    <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
+                    <a href="tel:+244944704591" className="text-muted-foreground hover:text-primary transition-colors">
                       +244 (944) 704-591
                     </a>
                   </div>
@@ -184,7 +184,7 @@ export default function Contact () {
                     id="phone"
                     name="phone"
                     type="tel"
-                    placeholder="+1 (123) 456-789"
+                    placeholder="+0 (123) 456-789"
                     value={formData.phone}
                     onChange={handleChange}
                     required
