@@ -42,12 +42,12 @@ export default function Contact () {
 
     setIsSubmitting(true);
     
-    const mailtoUrl = `mailto:seu.email@exemplo.com?subject=${encodeURIComponent(`Solicitação de projeto de ${formData.name}`)}&body=${encodeURIComponent(`Nome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}\n\nMensagem:\n${formData.message}`)}`;
+    const mailtoUrl = `mailto:gilson.leonel05@gmail.com?subject=${encodeURIComponent(`Solicitação de projeto de ${formData.name}`)}&body=${encodeURIComponent(`Nome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}\n\nMensagem:\n${formData.message}`)}`;
     
     window.location.href = mailtoUrl;
     
     toast({
-      title: "Abrindo o cliente de e-mail...",
+      title: "Abrindo o e-mail...",
       description: "Seu aplicativo de e-mail padrão deve abrir agora.",
     });
     
